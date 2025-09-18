@@ -11,20 +11,25 @@ Este projeto tem como objetivo identificar momentos de inversão durante lançam
 - Haar Cascade (Viola & Jones)  
 
 ## Estrutura do Projeto
-Detecção de Inversão/
-├─ Main.py/ # Main do projeto
-├─ funcoes/ # Todas as funcoes criadas para realizar a detecção
-│ ├─ __init__.py
+```text
+DetecçãoDeInversao/
+├─ Main.py              # Main do projeto
+├─ funcoes/             # Funções auxiliares para detecção
+│ ├─ init.py
 │ ├─ bodyParts.py
-│ ├─ FindFLyer.py
+│ ├─ FindFlyer.py
 │ ├─ Inversao.py
-│ ├─ MediaPipeiInversao.py
+│ ├─ MediaPipeInversao.py
 │ ├─ PontoDeInteresse.py
 │ └─ CriarEixo.py
-├─ 131.mp4 # Video de teste para a detecção 
-└─ requirements.txt # Dependências do projeto
+├─ 131.mp4             # Vídeo de teste para detecção
+└─ requirements.txt    # Dependências do projeto
+```
+
 
 ## Resutados
-Teste.png # Frame atual que está sendo processado
-Teste2.png # Frame focado na flyer, que será utilizado pelo Mediapipe
-Teste3.png # Resultado da detecção de inversão
+```text
+- Teste.png        # Frame atual que está sendo processado
+- Teste2.png       # Frame focado na flyer, que será utilizado pelo Mediapipe
+- Teste3.png       # Resultado da detecção de inversão
+```
